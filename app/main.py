@@ -6,11 +6,15 @@ genai.configure(api_key=st.secrets["API_KEY"])
 
 st.set_page_config(
     page_title="Turismo Verde | Chatbot",
-    page_icon="four_leaf_clover"
+    page_icon="four_leaf_clover",
 )
 
-c1, c2, c3 = st.columns([5, 2, 2], vertical_alignment='bottom')
+
+c1, c2, c3 = st.columns([5, 2, 2], vertical_alignment='center')
 c1.title("Turismo Verde")
+
+
+c1.markdown("Hecho por :green[**Guillermo Daniel Mestas Alvarez**]")
 
 if "text_received" not in st.session_state:
     st.session_state["text_received"] = []
