@@ -20,7 +20,11 @@ This project is a simple chatbot application built with [Streamlit](https://stre
 
 ## Screenshots
 
+Dark Mode
+![image](https://github.com/user-attachments/assets/49c6182e-d254-46f9-b8f9-12929da4eda4)
 
+Light Mode
+![image](https://github.com/user-attachments/assets/e77c473c-a12c-4111-ac56-5fb9d5a22dda)
 
 ## Getting Started
 
